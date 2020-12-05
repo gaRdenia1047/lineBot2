@@ -19,7 +19,7 @@ def index():
     except Exception:
         return "Could not read to file"
     
-    return "นายอาคม สุวรรณประเสริฐ เลขที่ 0 ชั้น ม.4/"
+    return "patteera pinyo 1047"
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
